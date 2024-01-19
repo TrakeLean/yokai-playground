@@ -33,18 +33,18 @@ This project serves as a playground for testing ChatGPT API calls and integratin
         ```bash
         nano .env
         ```
-        Write "API_KEY=your_key" and save.
+        Write "API_KEY=your-api-key" and save.
 
     - *Windows:*
         ```bash
         echo .env
-        echo API_KEY=your_key >> .env
+        echo API_KEY=your-api-key >> .env
         ```
 
 4. **API Key:**
-    Obtain your ChatGPT API key from OpenAI. Add the key to the .env file:
+    Obtain your ChatGPT API key from [OpenAI](https://platform.openai.com/account/api-keys). Add the key to the .env file:
     ```plaintext
     API_KEY=your-api-key
     ```
 
-*Github REPO:* [https://github.com/openai/openai-python](https://github.com/openai/openai-python)s
+*Github REPO:* [https://github.com/openai/openai-python](https://github.com/openai/openai-python)
