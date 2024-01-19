@@ -1,8 +1,13 @@
 # Yokai Playground - ChatGPT API Testing
 
-![GitHub](https://img.shields.io/github/license/TrakeLean/yokai-playground)
+![ChatGPT API Status](https://img.shields.io/badge/ChatGPT%20API-Working-brightgreen)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TrakeLean/yokai-playground)
-![GitHub issues](https://img.shields.io/github/issues/TrakeLean/yokai-playground)
+![GitHub contributors](https://img.shields.io/github/contributors/TrakeLean/yokai-playground)
+![GitHub top language](https://img.shields.io/github/languages/top/TrakeLean/yokai-playground)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TrakeLean/yokai-playground)
+
+
+
 
 ## Overview
 
@@ -11,16 +16,35 @@ This project serves as a playground for testing ChatGPT API calls and integratin
 ## Getting Started
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/TrakeLean/yokai-playground.git
+    ```bash
+    git clone https://github.com/TrakeLean/yokai-playground.git
+    ```
 
 2. **Install Dependencies:**
-cd yokai-playground
-pip install -r requirements.txt
+    ```bash
+    cd yokai-playground
+    pip install -r requirements.txt
+    ```
 
-3. **API Key:**
-Obtain your ChatGPT API key from OpenAI. Add the key to the .env file:
-API_KEY=your-api-key
+3. **Setup .env**
+    Make sure you are in the root folder of the project.
 
-*Github REPO*
-https://github.com/openai/openai-python
+    - *Unix/Linux/Mac Terminal:*
+        ```bash
+        nano .env
+        ```
+        Write "API_KEY=your_key" and save.
+
+    - *Windows:*
+        ```bash
+        echo .env
+        echo API_KEY=your_key >> .env
+        ```
+
+4. **API Key:**
+    Obtain your ChatGPT API key from OpenAI. Add the key to the .env file:
+    ```plaintext
+    API_KEY=your-api-key
+    ```
+
+*Github REPO:* [https://github.com/openai/openai-python](https://github.com/openai/openai-python)s
