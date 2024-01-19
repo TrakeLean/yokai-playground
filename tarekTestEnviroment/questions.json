@@ -1,52 +1,54 @@
 {
-  "questions": [
+  "multiple_choice": [
     {
       "type": "multiple_choice",
-      "question": "What is the primary function of Parallel Virtual Machine (PVM) in the context of High Performance Computing (HPC)?",
+      "question": "What does the `pass` statement do in a Python function?",
       "options": [
-        "a) To provide data storage solutions",
-        "b) To support concurrent programming",
-        "c) To network computers as a distributed parallel processor",
-        "d) To enhance the graphical processing unit (GPU) performance"
+        "a) It initiates an infinite loop",
+        "b) It represents a null operation",
+        "c) It passes control to the parent class",
+        "d) It passes execution to the next line of code"
       ],
-      "answer": "c) To network computers as a distributed parallel processor"
-    },
-    {
-      "type": "multiple_choice",
-      "question": "What is a key feature of OpenNebula in cloud platform management?",
-      "options": [
-        "a) Multi-tenant cloud-like provisioning layer on top of existing infrastructure",
-        "b) Hosting mobile applications",
-        "c) Centralized database management system",
-        "d) Integration with social media APIs"
-      ],
-      "answer": "a) Multi-tenant cloud-like provisioning layer on top of existing infrastructure"
+      "answer": "b) It represents a null operation"
     },
     {
       "type": "multiple_choice",
-      "question": "Which cloud platform mentioned in the lecture notes is known for its compatibility with Amazon Web Services (AWS) protocols?",
+      "question": "What is a correct syntax to output 'Hello World' in Python?",
       "options": [
-        "a) Eucalyptus",
-        "b) OpenStack",
-        "c) OpenNebula",
-        "d) Nimbus"
+        "a) echo 'Hello World'",
+        "b) print('Hello World')",
+        "c) Console.WriteLine('Hello World')",
+        "d) printf('Hello World')"
       ],
-      "answer": "a) Eucalyptus"
+      "answer": "b) print('Hello World')"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which of the following is not a valid keyword in Python?",
+      "options": [
+        "a) def",
+        "b) as",
+        "c) except",
+        "d) begin"
+      ],
+      "answer": "d) begin"
+    }
+  ],
+  "short_answer": [
+    {
+      "type": "short_answer",
+      "question": "What keyword is used to define a function in Python?",
+      "answer": "The keyword 'def' is used to define a function in Python."
     },
     {
       "type": "short_answer",
-      "question": "Explain the role of the Message Passing Interface (MPI) in High Performance Computing (HPC).",
-      "answer": "MPI is a library used for High Performance Computing that establishes information flow between nodes and clusters, allowing programmers to focus on algorithms rather than communications overheads."
+      "question": "Why are list comprehensions often preferred over traditional loops in Python?",
+      "answer": "List comprehensions are often preferred over traditional loops in Python because they are more concise, readable, and optimized for performance."
     },
     {
       "type": "short_answer",
-      "question": "What is the primary advantage of using the Dryad infrastructure for data-parallel programs?",
-      "answer": "The primary advantage of using Dryad is that it enables a programmer to utilize the resources of a computer cluster or a data center without needing to understand concurrent programming."
-    },
-    {
-      "type": "short_answer",
-      "question": "Describe the Nimbus Cloud Platform and list one of its compatibility features.",
-      "answer": "The Nimbus Cloud Platform is an open-source Infrastructure as a Service (IaaS) solution that focuses on remote deployment and lifecycle management of virtual machines (VMs). One of its compatibility features is its ability to work with Amazon Network protocols."
+      "question": "Explain what a 'slice' is in the context of Python data types.",
+      "answer": "A 'slice' in Python refers to a subset of elements from a list, tuple, or string, defined by a range of indices."
     }
   ]
 }
