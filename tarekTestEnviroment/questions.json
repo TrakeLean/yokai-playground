@@ -1,0 +1,52 @@
+{
+  "questions": [
+    {
+      "type": "multiple_choice",
+      "question": "What is the primary function of Parallel Virtual Machine (PVM) in the context of High Performance Computing (HPC)?",
+      "options": [
+        "a) To provide data storage solutions",
+        "b) To support concurrent programming",
+        "c) To network computers as a distributed parallel processor",
+        "d) To enhance the graphical processing unit (GPU) performance"
+      ],
+      "answer": "c) To network computers as a distributed parallel processor"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What is a key feature of OpenNebula in cloud platform management?",
+      "options": [
+        "a) Multi-tenant cloud-like provisioning layer on top of existing infrastructure",
+        "b) Hosting mobile applications",
+        "c) Centralized database management system",
+        "d) Integration with social media APIs"
+      ],
+      "answer": "a) Multi-tenant cloud-like provisioning layer on top of existing infrastructure"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which cloud platform mentioned in the lecture notes is known for its compatibility with Amazon Web Services (AWS) protocols?",
+      "options": [
+        "a) Eucalyptus",
+        "b) OpenStack",
+        "c) OpenNebula",
+        "d) Nimbus"
+      ],
+      "answer": "a) Eucalyptus"
+    },
+    {
+      "type": "short_answer",
+      "question": "Explain the role of the Message Passing Interface (MPI) in High Performance Computing (HPC).",
+      "answer": "MPI is a library used for High Performance Computing that establishes information flow between nodes and clusters, allowing programmers to focus on algorithms rather than communications overheads."
+    },
+    {
+      "type": "short_answer",
+      "question": "What is the primary advantage of using the Dryad infrastructure for data-parallel programs?",
+      "answer": "The primary advantage of using Dryad is that it enables a programmer to utilize the resources of a computer cluster or a data center without needing to understand concurrent programming."
+    },
+    {
+      "type": "short_answer",
+      "question": "Describe the Nimbus Cloud Platform and list one of its compatibility features.",
+      "answer": "The Nimbus Cloud Platform is an open-source Infrastructure as a Service (IaaS) solution that focuses on remote deployment and lifecycle management of virtual machines (VMs). One of its compatibility features is its ability to work with Amazon Network protocols."
+    }
+  ]
+}
