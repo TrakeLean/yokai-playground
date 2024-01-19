@@ -29,7 +29,7 @@ This project serves as a playground for testing ChatGPT API calls and integratin
 3. **Setup .env**
     Make sure you are in the root folder of the project.
 
-    - *Unix/Linux/Mac Terminal:*
+    - *Unix/Linux/Mac:*
         ```bash
         nano .env
         ```
