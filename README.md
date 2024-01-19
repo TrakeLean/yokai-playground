@@ -21,3 +21,6 @@ pip install -r requirements.txt
 3. **API Key:**
 Obtain your ChatGPT API key from OpenAI. Add the key to the .env file:
 API_KEY=your-api-key
+
+*Github REPO*
+https://github.com/openai/openai-python
