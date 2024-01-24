@@ -1,0 +1,54 @@
+{
+  "multiple_choice": [
+    {
+      "type": "multiple_choice",
+      "question": "What does the `pass` statement do in a Python function?",
+      "options": [
+        "a) It initiates an infinite loop",
+        "b) It represents a null operation",
+        "c) It passes control to the parent class",
+        "d) It passes execution to the next line of code"
+      ],
+      "answer": "b) It represents a null operation"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What is a correct syntax to output 'Hello World' in Python?",
+      "options": [
+        "a) echo 'Hello World'",
+        "b) print('Hello World')",
+        "c) Console.WriteLine('Hello World')",
+        "d) printf('Hello World')"
+      ],
+      "answer": "b) print('Hello World')"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which of the following is not a valid keyword in Python?",
+      "options": [
+        "a) def",
+        "b) as",
+        "c) except",
+        "d) begin"
+      ],
+      "answer": "d) begin"
+    }
+  ],
+  "short_answer": [
+    {
+      "type": "short_answer",
+      "question": "What keyword is used to define a function in Python?",
+      "answer": "The keyword 'def' is used to define a function in Python."
+    },
+    {
+      "type": "short_answer",
+      "question": "Why are list comprehensions often preferred over traditional loops in Python?",
+      "answer": "List comprehensions are often preferred over traditional loops in Python because they are more concise, readable, and optimized for performance."
+    },
+    {
+      "type": "short_answer",
+      "question": "Explain what a 'slice' is in the context of Python data types.",
+      "answer": "A 'slice' in Python refers to a subset of elements from a list, tuple, or string, defined by a range of indices."
+    }
+  ]
+}
